@@ -1,0 +1,14 @@
+[package]
+name = "geekout"
+version = "0.1.0"
+authors = ["Steve Klabnik <steve@steveklabnik.com>"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+crossbeam = "*"
+rayon = "*"
+itertools = "*"
+time = "*"
+libc = "0.2.7"
